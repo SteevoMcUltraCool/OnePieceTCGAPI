@@ -1,5 +1,5 @@
 let a = {
-  "C000": {
+  "C003": {
     key: "0000",
     displayName: "Crocodile",
     type: "Leader",
@@ -24,13 +24,14 @@ let a = {
     power: 5000,
     cost: "N/A",
     counter: "N/A",
+    trigger: "N/A",
     text:
       "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     textAsHTML:
       '<span class="blue curved">Activate: Main</span> <span class="red round">Once Per Turn<span> <b>DON!! -4</b> <i>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</i>: Return up to 1 Character with a cost of 5 or less to the owner\'s hand.'
   },
-  "0000": {
-    key: "0000",
+  "0030": {
+    key: "0030",
     displayName: "Edward Weevil",
     type: "Character",
     colors: ["blue"],
@@ -54,11 +55,12 @@ let a = {
     power: 5000,
     cost: 3,
     counter: 1000,
+    trigger: "N/A",
     text: "",
     textAsHTML: ""
   },
-  "0001": {
-    key: "0001",
+  "0031": {
+    key: "0031",
     displayName: "Crocodile",
     type: "Character",
     colors: ["blue"],
@@ -82,13 +84,14 @@ let a = {
     power: 6000,
     cost: 5,
     counter: "N/A",
+    trigger: "N/A",
     text:
       "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)\n[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
     textAsHTML:
       '<span class = "orange jagged">Blocker </span><i> (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</i>\n<span class = "black round"> DON!! x1 </span> <span class="blue curved">On Block</span> Place up to 1 Character with a cost of 2 or less at the bottom of the owner\'s deck.'
   },
-  "0002": {
-    key: "0002",
+  "0032": {
+    key: "0032",
     displayName: "Gecko Moria",
     type: "Character",
     colors: ["blue"],
@@ -112,11 +115,12 @@ let a = {
     power: 5000,
     cost: 4,
     counter: "N/A",
+    trigger: "N/A",
     text: `[On Play] Add up to 1 "The Seven Warlords of the Sea" or "Thriller Bark Pirates" type Character with a cost of 4 or less than [Gecko Moria] from your trash to your hand.`,
     textAsHTML: `<span class="blue curved">On Play</span> Add up to 1 "The Seven Warlords of the Sea" or "Thriller Bark Pirates" type Character with a cost of 4 or less than [Gecko Moria] from your trash to your hand.`
   }, 
-  "0003": {
-    key: "0003",
+  "0033": {
+    key: "0033",
     displayName: "Dracule Mihawk",
     type: "Character",
     colors: ["blue"],
@@ -140,11 +144,12 @@ let a = {
     power: 5000,
     cost: 4,
     counter: 2000,
+    trigger: "N/A",
     text: `[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.`,
     textAsHTML: `<span class="black round">DON!! x1</span> <span class = "blue curved">When Attacking</span> Draw 2 cards and trash 2 cards from your hand.`
   }, 
-  "0004": {
-    key: "0004",
+  "0034": {
+    key: "0034",
     displayName: "Jinbe",
     type: "Character",
     colors: ["blue"],
@@ -168,11 +173,12 @@ let a = {
     power: 4000,
     cost: 2,
     counter: 1000,
+    trigger: "N/A",
     text: ``,
     textAsHTML: ``
   }, 
-  "0005": {
-    key: "0005",
+  "0035": {
+    key: "0035",
     displayName: "Sentomaru",
     type: "Character",
     colors: ["blue"],
@@ -196,11 +202,12 @@ let a = {
     power: 4000,
     cost: 3,
     counter: 1000,
+    trigger: "N/A",
     text: `[DON!! x1] [Activate: Main] [Once Per Turn] (2) (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.`,
     textAsHTML: `<span class ="black round">DON!! x1</span> <span class="blue curved">Activate: Main</span> <span class="red round">Once Per Turn</span> <span class= "gray round"> 2</span> <i>(You may rest the specified number of DON!! cards in your cost area.)</i>: Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.`
   },
-  "0006": {
-    key: "0006",
+  "0036": {
+    key: "0036",
     displayName: "Trafalgar Law",
     type: "Character",
     colors: ["blue"],
@@ -224,11 +231,12 @@ let a = {
     power: 4000,
     cost: 3,
     counter: 1000,
+    trigger: "N/A",
     text: `[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)`,
     textAsHTML: `<span class="orange jagged">Blocker</span> <i>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</i>`
   },
-  "0007": {
-    key: "0007",
+  "0037": {
+    key: "0037",
     displayName: "Donquixote Doflamingo",
     type: "Character",
     colors: ["blue"],
@@ -239,7 +247,7 @@ let a = {
       special: "https://product-images.tcgplayer.com/420317.jpg"
     },
     box: "ST03",
-    count: "N/A",
+    count: "2",
     boxPosition: "009",
     cardID: "ST03-009",
     artwork: {
@@ -252,9 +260,100 @@ let a = {
     power: 7000,
     cost: 7,
     counter: "N/A",
+    trigger: "N/A",
     text:
       "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
     textAsHTML:
       '<span class="blue curved">On Play</span> Return up to 1 Character with a cost of 7 or less to the owner\'s hand.'
+  },
+  "0038": {
+    key: "0038",
+    displayName: "Bartholomew Kuma",
+    type: "Character",
+    colors: ["blue"],
+    damageType: "Strike",
+    subtypes: ["The Seven Warlords of the Sea", "Revolutionary Army"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288280.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "010",
+    cardID: "ST03-010",
+    artwork: {
+      half:
+        "https://staticg.sportskeeda.com/editor/2022/07/0fba7-16586016528835-1920.jpg",
+      full:
+        "https://static.wikia.nocookie.net/onepiece/images/8/8d/Bartholomew_Kuma_Anime_Infobox.png/revision/latest?cb=20221012030835"
+    },
+    health: "N/A",
+    power: 3000,
+    cost: 2,
+    counter: "N/A",
+    trigger: "Play this card",
+    text:`[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.`,
+    textAsHTML:
+    `<span class="blue curved">On Play</span> Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.`,
+  },
+  "0039": {
+    key: "0039",
+    displayName: "Buggy",
+    type: "Character",
+    colors: ["blue"],
+    damageType: "Strike",
+    subtypes: ["The Seven Warlords of the Sea", "Buggy's Delivery"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288282.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "011",
+    cardID: "ST03-011",
+    artwork: {
+      half:
+        "https://static.wikia.nocookie.net/onepiece/images/f/f7/Buggy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20220710142434",
+      full:
+        ""
+    },
+    health: "N/A",
+    power: 3000,
+    cost: 1,
+    counter: "1000",
+    trigger: "N/A",
+    text:``,
+    textAsHTML:
+    ``,
+  },
+  "003A": {
+    key: "003A",
+    displayName: "Pacifista",
+    type: "Character",
+    colors: ["blue"],
+    damageType: "Special",
+    subtypes: ["Biological Weapon","Navy"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288284.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "012",
+    cardID: "ST03-012",
+    artwork: {
+      half:
+        "https://static.wikia.nocookie.net/fairyonepiecetail/images/4/49/Pacifista_01.jpg/revision/latest?cb=20121207061851",
+      full:
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/afb1742d-0829-4b8d-b834-e09196d084f1/df5ytqn-d3843fa4-316f-4c92-a6b2-4787ad9fc1d9.png"
+    },
+    health: "N/A",
+    power: 6000,
+    cost: 4,
+    counter: "1000",
+    trigger: "N/A",
+    text:``,
+    textAsHTML:
+    ``,
   }
 }
