@@ -355,5 +355,155 @@ let a = {
     text:``,
     textAsHTML:
     ``,
-  }
+  },
+  "003B": {
+    key: "003B",
+    displayName: "Boa Hancock",
+    type: "Character",
+    colors: ["blue"],
+    damageType: "Special",
+    subtypes: ["The Seven Warlords of the Sea","Kuja Pirates"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288286.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "013",
+    cardID: "ST03-013",
+    artwork: {
+      half:
+        "https://static.displate.com/857x1200/displate/2021-05-21/09d171a7bad4937169e101f0ea03cf03_7be2883276a046aa32996e2495fd8a2a.jpg",
+      full:
+        "https://i.pinimg.com/originals/c9/cd/ec/c9cdecb46a693c4b1fc2dac02717fad1.png"
+    },
+    health: "N/A",
+    power: 1000,
+    cost: 3,
+    counter: "1000",
+    trigger: "Play this card.",
+    text:`[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)`,
+    textAsHTML:
+    `<span class="orange jagged">Blocker</span> <i>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</i>`,
+  },
+  "003C": {
+    key: "003C",
+    displayName: "Marshall.D.Teach",
+    type: "Character",
+    colors: ["blue"],
+    damageType: "Special",
+    subtypes: ["The Seven Warlords of the Sea","Blackbeard Pirates"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288288.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "2",
+    boxPosition: "014",
+    cardID: "ST03-014",
+    artwork: {
+      half:
+        "https://static.wikia.nocookie.net/onepiece/images/f/ff/Marshall_D._Teach_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200112104542",
+      full:
+        "https://i.pinimg.com/736x/49/f4/13/49f413e309b64c8ee013a3214a32b732--marshalls-men.jpg"
+    },
+    health: "N/A",
+    power: 4000,
+    cost: 4,
+    counter: "1000",
+    trigger: "N/A",
+    text:`[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.`,
+    textAsHTML:
+    `<span class="blue curved">On Play</span> Return up to 1 Character with a cost of 3 or less to the owner's hand.`,
+  },
+  "003D": {
+    key: "003D",
+    displayName: "Sables",
+    type: "Event",
+    colors: ["blue"],
+    damageType: "N/A",
+    subtypes: ["The Seven Warlords of the Sea","Baroque Works"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288289.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "015",
+    cardID: "ST03-015",
+    artwork: {
+      half:
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f69aaa7-a7ea-4e38-9ca0-4cf0b8da2c20/dbcl5tk-f56360c9-7fcb-4a2c-aef1-173a8aa6bf0c.png/v1/fill/w_631,h_380,q_80,strp/crocodile_sable___one_piece_by_mada654_dbcl5tk-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzgwIiwicGF0aCI6IlwvZlwvOWY2OWFhYTctYTdlYS00ZTM4LTljYTAtNGNmMGI4ZGEyYzIwXC9kYmNsNXRrLWY1NjM2MGM5LTdmY2ItNGEyYy1hZWYxLTE3M2E4YWE2YmYwYy5wbmciLCJ3aWR0aCI6Ijw9NjMxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iwXKMD5A6ARr1Nm0LSAxT6lJw3CWI4aP0t-7yT9dwn4",
+      full:
+        ""
+    },
+    health: "N/A",
+    power: "N/A",
+    cost: 4,
+    counter: "N/A",
+    trigger: "Activate this card's main effect",
+    text:`[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.`,
+    textAsHTML:
+    `<span class="blue curved">Main</span> Return up to 1 Character with a cost of 7 or less to the owner's hand.`,
+  },
+  "003E": {
+    key: "003E",
+    displayName: "Thrust Pad Cannon",
+    type: "Event",
+    colors: ["blue"],
+    damageType: "N/A",
+    subtypes: ["The Seven Warlords of the Sea","Revolutionary Army"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288290.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "4",
+    boxPosition: "016",
+    cardID: "ST03-016",
+    artwork: {
+      half:
+        "https://static.wikia.nocookie.net/onepiecetreasurecruiseglobal/images/4/40/C0835.png/revision/latest/smart/width/250/height/250?cb=20160902141710",
+      full:
+        ""
+    },
+    health: "N/A",
+    power: "N/A",
+    cost: 2,
+    counter: "N/A",
+    trigger: "Activate this card's counter effect",
+    text:`[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.`,
+    textAsHTML:
+    `<span class="red curved"><span class="lightningPNG"></span>Counter</span> Return up to 1 Character with a cost of 3 or less to the owner's hand.`,
+  },
+  "003F": {
+    key: "003F",
+    displayName: "Love-Love Mellow",
+    type: "Event",
+    colors: ["blue"],
+    damageType: "N/A",
+    subtypes: ["The Seven Warlords of the Sea","Kuja Pirates"],
+    image: {
+      regular: "https://product-images.tcgplayer.com/288291.jpg",
+      special: ""
+    },
+    box: "ST03",
+    count: "2",
+    boxPosition: "017",
+    cardID: "ST03-017",
+    artwork: {
+      half:
+        "https://static.wikia.nocookie.net/onepiece/images/9/98/Mero_Mero_no_Mi_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20220910135141",
+      full:
+        "https://i.stack.imgur.com/zsbe2.png"
+    },
+    health: "N/A",
+    power: "N/A",
+    cost: 2,
+    counter: "N/A",
+    trigger: "N/A",
+    text:`[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.`,
+    textAsHTML:
+    `<span class="red curved"><span class="lightningPNG"></span>Counter</span> Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.`,
+  },
 }
